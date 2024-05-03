@@ -24,7 +24,7 @@ This project provides a backend service in the form of a **C++ library** for boo
 3. Create a build directory: `mkdir build && cd build`.
 4. Run CMake to generate build files: `cmake ..`.
 5. Build the application: `make`.
-6. After building the application, navigate to the build directory `bin/lib/` to find the library as **libbookmovie.so**.
+6. After building the application, navigate to the build directory `bin/lib/` to find the library as **moviebookigsystem.so**.
 
 ## Directory Structure
 ```
@@ -59,9 +59,8 @@ MovieTicketBookingSystem/
 - Refer to this file for information on how to interact with the backend service.
 
 ### Functional testing using the Test Application
-#### Prerequisites:
-Ensure that the library is built successfully before building the Test Application.
-1. After building the library, navigate to the TestApp directory `MovieTicketBookingSystem.TestApp`. 
+**Note: The dependecy of the library is already added to the CMake file of the app in the form of a find module (Check `FindMovieBookingSystem.cmake`).**
+1. Navigate to the TestApp directory `MovieTicketBookingSystem.TestApp`. 
 2. Create a build directory: `mkdir build && cd build`.
 3. Run CMake to generate build files: `cmake ..`.
 4. Build the application: `make`.
