@@ -17,7 +17,7 @@ set(CMAKE_BUILD_TYPE Debug)
 ################################################################
 set(MOVIE_TICKET_BOOKING_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Include")
 set(MOVIE_TICKET_BOOKING_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/Src")
-set(MOVIE_TICKET_BOOKING_TARGET_NAME bookmovie)
+set(MOVIE_TICKET_BOOKING_TARGET_NAME moviebookigsystem)
 
 ################################################################
 # DEPENDENCIES
